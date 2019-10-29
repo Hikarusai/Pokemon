@@ -1,0 +1,26 @@
+extends ./header
+block content  
+  .sidebar
+    .list
+      ul.menu
+        li.listder
+          p DANH MỤC
+        each ds in danhsach1
+          li.children
+            p=ds.theloai
+            ul.submenu
+              each n in ds.chitiet
+                li.alex
+                  p #{n}
+       
+  .main
+    .row
+      each pok in danhsach2
+        a(href='/'+pok.id).col-md-2
+          .image(style='background-image: url(images/'+pok.hinh+')')
+          .id #{pok.stt}
+          .name #{pok.name}
+          .species(style='background-color:'+pok.color) #{pok.species}	
+
+          		
+		

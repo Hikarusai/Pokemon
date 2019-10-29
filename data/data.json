@@ -1,0 +1,191 @@
+{
+  "menu": [
+    {
+      "theloai": "THỂ THAO",
+      "chitiet": [
+        "BÓNG ĐÁ",
+        "TENNIS",
+        "BƠI LỘI"
+      ]
+    },
+    {
+      "theloai": "KINH TẾ",
+      "chitiet": [
+        "CÔNG NGHỆP",
+        "NÔNG NGHIỆP",
+        "DỊCH VỤ"
+      ]
+    },
+    {
+      "theloai": "GIÁO DỤC",
+      "chitiet": [
+        "MẦM NON",
+        "TIỂU HỌC",
+        "TRUNG HỌC",
+        "ĐẠI HỌC"
+      ]
+    },
+    {
+      "theloai": "GIA ĐÌNH",
+      "chitiet": [
+        "SỨC KHỎE",
+        "TÀI CHÍNH",
+        "CON CÁI",
+        "XÃ HỘI"
+      ]
+    },
+    {
+      "theloai": "KHOA HỌC",
+      "chitiet": [
+        "HẠT NHÂN",
+        "VŨ TRỤ",
+        "ELECTRIC"
+      ]
+    }
+  ],
+  "pokemon": [
+    {
+      "id": "1",
+      "stt": "#001",
+      "hinh": "001.png",
+      "hinhView": "001View.png",
+      "name": "Bulbasaul",
+      "species": "Grass-Poison",
+      "color": "#bf39d8"
+    },
+    {
+      "id": "2",
+      "stt": "#002",
+      "hinh": "002.png",
+      "hinhView": "002View.png",
+      "name": "Ivysaur",
+      "species": "Grass",
+      "color": "#d8397e"
+    },
+    {
+      "id": "3",
+      "stt": "#003",
+      "hinh": "003.png",
+      "hinhView": "003View.png",
+      "name": "Venusaur",
+      "species": "Grass-Poison",
+      "color": "#bf39d8"
+    },
+    {
+      "id": "4",
+      "stt": "#004",
+      "hinh": "004.png",
+      "hinhView": "004View.png",
+      "name": "Charmander",
+      "species": "Fire",
+      "color": "orange"
+    },
+    {
+      "id": "5",
+      "stt": "#005",
+      "hinh": "005.png",
+      "hinhView": "005View.png",
+      "name": "Psttgeotto",
+      "species": "Flying",
+      "color": "blue"
+    },
+    {
+      "id": "6",
+      "stt": "#006",
+      "hinh": "006.png",
+      "hinhView": "006View.png",
+      "name": "Pikachu",
+      "species": "Electric",
+      "color": "yellow"
+    },
+    {
+      "id": "7",
+      "stt": "#007",
+      "hinh": "007.png",
+      "hinhView": "007View.png",
+      "name": "Sandshrew",
+      "species": "Ground",
+      "color": "#1ebb8d"
+    },
+    {
+      "id": "8",
+      "stt": "#008",
+      "hinh": "008.png",
+      "hinhView": "008View.png",
+      "name": "Nsttoking",
+      "species": "Poison-Ground",
+      "color": "#81d81a"
+    },
+    {
+      "id": "9",
+      "stt": "#009",
+      "hinh": "009.png",
+      "hinhView": "009View.png",
+      "name": "Clefairy",
+      "species": "Fairy",
+      "color": "#bb221e"
+    },
+    {
+      "id": "10",
+      "stt": "#010",
+      "hinh": "010.png",
+      "hinhView": "010View.png",
+      "name": "Vulpic",
+      "species": "Fire",
+      "color": "orange"
+    },
+    {
+      "id": "11",
+      "stt": "#011",
+      "hinh": "011.png",
+      "hinhView": "011View.png",
+      "name": "Zubat",
+      "species": "Poison-Flying",
+      "color": "#81d81a"
+    },
+    {
+      "id": "12",
+      "stt": "#012",
+      "hinh": "012.png",
+      "hinhView": "012View.png",
+      "name": "Meowth",
+      "species": "Normal",
+      "color": "#695960"
+    },
+    {
+      "id": "13",
+      "stt": "#013",
+      "hinh": "013.png",
+      "hinhView": "013View.png",
+      "name": "Arcanine",
+      "species": "Fire",
+      "color": "orange"
+    },
+    {
+      "id": "14",
+      "stt": "#014",
+      "hinh": "014.png",
+      "hinhView": "014View.png",
+      "name": "Ponyta",
+      "species": "Fire",
+      "color": "orange"
+    },
+    {
+      "id": "15",
+      "stt": "#015",
+      "hinh": "015.png",
+      "hinhView": "015View.png",
+      "name": "Gastly",
+      "species": "Ghost-Poison",
+      "color": "#6c757d"
+    }
+  ],
+  "users": [
+    {
+      "name": "Đào Công Tâm",
+      "email": "congtam@gmail.com",
+      "password": "123456",
+      "stt": "Z1pp5BJv"
+    }
+  ]
+}

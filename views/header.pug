@@ -1,0 +1,23 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Pokemon 
+    link(rel='stylesheet', href='css/style.css')
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
+    link(rel="shortcut icon" ,href="https://assets.pokemon.com/static2/_ui/img/favicon.ico")
+  body
+    .container
+      .images
+      .header
+        a.logo(href='/')
+        form.form-inline(action='/search', method='GET')
+          input.form-control.mr-sm-2(type='search', placeholder='Search', aria-label='Search',name='q')
+          button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Search
+        ul.navbar-nav
+          li.liOne.nav-item.active
+            a.nav-link(href='/login') Login
+          li.nav-item.active.pr-0
+            a.nav-link(href='/registration') Registration
+
+      block content

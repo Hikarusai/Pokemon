@@ -1,0 +1,219 @@
+body{
+		background-color: whitesmoke !important;
+}
+.container{
+	height: 950px;
+	font-family: Arial,sans-serif;
+
+}
+.container .header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.container .header .logo{
+	width: 15%;
+	margin-left: 50px;
+	background-image: url(../images/logo4.png);
+	background-size: cover;
+}
+.container .header .form-inline{
+	width: 50% ;
+}
+.container .header .form-control{
+	width:80%;
+}
+.container .header .navbar-nav{
+	flex-direction: row;
+
+}
+.container .header .navbar-nav li{
+	margin:15px;
+}
+.images{
+	width: 100%;
+	height: 25%;
+	background-image: url(../images/pokemon_cover.jpg);
+	background-size: cover;
+}
+.sidebar{
+	background-color: #fff;
+	width: 25%;
+	height: 74%;
+	float: left;
+	border: 1px solid #ddd;
+	margin-top: 2px;
+}
+.main{
+	background-color: #fff;
+	width: 74%;
+	height:74%;
+	float: right;
+	border: 1px solid #ddd;
+	margin-top: 2px;
+	border-radius: 5px;
+}
+.main .h1{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.main .h1 .image0{
+	width: 50px;
+	height: 50px;
+	background-image: url(../images/icon.png);
+	background-size: cover;
+	
+}
+.main .h1 .nameP{
+	color:#000;
+	margin-left: 20px;
+}
+.main .h1 .idP{
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #999999;
+}
+.menu{
+	padding-left: 0px;
+	display: flex;
+	flex-direction: column;
+
+}
+.listder {
+	background-color: #0000009c;
+	color: white;	
+}
+.listder p{
+	padding: 15px 10px 0px 10px;
+}
+.children p{
+	padding: 15px 10px 0px 10px;
+
+}
+.list li{
+	list-style: none;
+}
+.children:hover
+{
+	background-color: orange;
+	color: white;
+}
+.submenu{
+	padding: 0px;
+	display: none;
+}
+.children:hover .submenu{
+	display: block ; 
+	background-color: whitesmoke;
+	color:#000;
+}
+.alex:hover {
+
+	background-color: #8886ff;
+	color: white;
+
+}
+.menu .children .submenu .alex {
+		display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #ddd;
+}
+
+.container .main .row{
+	margin: 0px;
+}
+.container .main .viewPokemon{
+	margin-top: 50px;
+	display: flex;
+}
+.container .main .viewPokemon .viewImage{
+	width: 60%;
+	height: width;
+	border-radius: 20px;
+	background-color: whitesmoke;
+	margin-left: 10px;
+
+}
+.container .main .viewPokemon .description{
+	margin-left: 10px;
+}
+.container .main .viewPokemon .description .version{
+	display: flex;
+	align-items: center;
+}
+.container .main .viewPokemon .description .version .image1{
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+	background-image: url(../images/icon1.png);
+	background-size: cover;
+}
+.container .main .viewPokemon .description .version .image2{
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+	background-image: url(../images/icon2.png);
+	background-size: cover;
+}
+.col-md-2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
+}
+.col-md-2 .image{
+	width: 100px;
+	height: 120px;
+	background-size: cover;
+	background-position: center;
+}
+.col-md-2 .id{
+	color: #999;
+}
+.col-md-2 .name{
+	font-size: 20px;
+	color: #2713d0;
+}
+.main .species{
+	color: white;
+	font-size: 13px;
+	width: 90px;
+	height: 20px;
+	text-align: center;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.main .speciesView{
+	color: white;
+	font-size: 26px;
+	width: 180px;
+	height: 40px;
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 10px;
+
+}
+.main .parameter{
+	width: 95%;
+	height: 200px;
+	margin-top: 50px;
+	background-color: #2da7ef;
+	border-radius: 10px;
+
+}
+.main .parameter .row .col-md-6{
+	margin-top: 30px;
+}
+.main .parameter .row .col-md-6 .p1{
+	margin-bottom: 10px;
+	color: white;
+}
+.col-md-2:hover{
+	 background-color: #dee2e6;
+    border-radius: 10px;
+    transform: scale(1.05);
+    text-decoration: none;
+}
+

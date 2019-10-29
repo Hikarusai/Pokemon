@@ -1,0 +1,47 @@
+extends ./header
+block content  
+  .sidebar
+    .list
+      ul.menu
+        li.listder
+          p DANH MỤC
+        each ds in danhsach1
+          li.children
+            p=ds.theloai
+            ul.submenu
+              each n in ds.chitiet
+                li.alex
+                  p #{n}
+       
+  .main
+    i
+      .h1 
+        .image0
+        .nameP #{danhsach2.name}
+        .idP #{danhsach2.stt}
+        .image0
+    .viewPokemon
+      .viewImage
+        img(src='images/'+danhsach2.hinhView)
+      .description
+        .textDescription Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
+        .version.mt-3
+          b Version
+          .image1
+          .image2
+        b.type Type
+        .speciesView(style='background-color:'+danhsach2.color) #{danhsach2.species}
+        .parameter
+          .row
+            .col-md-6
+              .p1 Height
+              .p2 2' 04"
+            .col-md-6
+              .p1 Category
+              .p2 Seed
+            .col-md-6
+              .p1 Weight
+              .p2 15.2 lbs
+            .col-md-6 
+              .p1 Abilities
+              .p2 Overgrow

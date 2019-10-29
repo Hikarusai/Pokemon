@@ -1,0 +1,21 @@
+extends ./header
+block content
+  .formUser
+    h1.mt-5 Create Account
+    if errors
+      each err in errors
+        .alert.alert-danger=err
+    form.mt-5(action="/registration", method="POST")
+      .form-group
+        label(for='name') Account Name
+        input#name.form-control(type='text', placeholder='Name', name='name',value=values?values.name:'')
+      .form-group
+        label(for='email') Email
+        input#email.form-control(type='email', placeholder='Email', name='email',value=values?values.email:'')
+      .form-group
+        label(for='password') Password
+        input#password.form-control(type='password', placeholder='Password', name='password',value=values?values.password:'')
+      .form-group
+        label(for='password') Confirm password
+        input#password.form-control(type='password', placeholder='Confirm', name='confirm',value=values?values.confirm:'')
+      button.btn.btn-primary Registration
